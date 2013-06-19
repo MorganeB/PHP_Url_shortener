@@ -1,0 +1,224 @@
+.gras {
+    font-weight: bold;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.medskip {
+    margin-top: 20px;
+}
+
+
+.msgerreur {
+    color: red;
+    margin-top: 20px;    
+    margin-bottom: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border:2px solid red;
+    width: 500px;
+}
+
+.msginfo {
+    color: green;
+    margin-top: 20px;    
+    margin-bottom: 30px;
+    padding: 20px;
+    font-weight: bold;
+    border:2px solid green;
+    width: 500px;
+}
+
+#captcha { 
+	margin-top : 20px; 
+	margin-bottom : 20px; 
+	margin-left : 50px;
+	height:80px;
+	}
+
+#header{
+	width : 800px;
+	margin-left:auto;
+	margin-right:auto;
+	background: right no-repeat;
+}
+#global{
+	font-family : Arial;
+	width:830px;
+	height : 900px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:10pt;
+}
+
+.headerRight {
+    float: right;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+.headerRight a{
+	font-family : Arial;
+	font-size:10pt;
+	color:grey;
+	text-decoration:none;
+}
+
+a:visited{
+	color : #151515;
+}
+
+a:link{
+	color : #151515;
+}
+
+.headerRight a:hover{
+	color:#FFCC33;
+	font-size:12pt;
+
+}
+
+table.menu{
+	width: 800px;
+	margin-bottom : 50px;
+}
+
+td.menu{
+	width: 700px;
+	border : 1px solid grey;
+	text-align: center;
+}
+
+
+
+.menu a:hover{
+	font-weight:bold;
+}
+
+/* ************** style du tableau d'historique des urls ****************/ 
+th.cases{
+	width : 28px;
+	border : 1px solid black;
+	text-align: left;
+}
+
+th.vues{
+	border : 1px solid black;
+	font-size : 10pt;
+}
+
+td.vues{
+	width: 70px;
+	width : 120px;
+	font-size : 10pt;
+}
+
+th.dates{
+	width : 120px;
+	border : 1px solid black;
+	font-size : 10pt;
+}
+
+td.dates{
+	width:120px;
+	font-size : 10pt;
+}
+
+th.sources{
+	width : 380px;
+	border : 1px solid black;
+	font-size : 10pt;
+}
+
+table.historique{
+	width: 780px;
+}
+
+th.historique{
+	font-size: 10pt;
+	border : 1px solid black;
+}
+
+td.historique{
+	width:200px;
+	font-size:10pt;
+	
+}
+
+/* **************** fin style tableau historique ****************** */
+
+
+#hidden { 
+	display: none; 
+}
+
+p{
+	font-family : Arial;
+	font-size:10pt;
+	color:grey;
+}
+
+h1{
+	font-style : italic;
+	color : grey;
+	font-family:Arial;
+	}
+	
+h3{ 	color : grey;}
+
+
+.alignDroit{
+	text-align: center;
+	font-style:bold;
+}
+
+#plgChoix{
+	position : relative;
+	background-color : #F5F5F5;
+	height : 80px;
+	width:750px;
+	text-align:center;
+	
+}
+
+p.infoEtoile{
+	font-family:arial;
+	font-size:10px;
+	text-align:right;
+
+}
+
+table.liste{
+	border : 1px solid black;
+	margin-bottom : 30px;
+}
+
+td.liste{
+	width : 180px;
+}
+
+
+.choixAction a:hover{
+	font-weight: bold;
+}
+
+.choixAction a{
+	text-decoration: none;
+}
+
+.choixAction li{
+	margin-bottom : 15px;
+}
+
+#chart_div{
+width: 700px; 
+height: 500px;
+}
+
+#chart_div2{
+padding-top : 50px;
+width: 700px; 
+height: 500px;
+}
